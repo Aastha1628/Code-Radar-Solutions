@@ -7,7 +7,7 @@ int main() {
     } else if (ch >=97 && ch <= 122) {
         printf("Lowercase");
     } else {
-        printf("Not a Character")
+        printf("Not a Character");
     }
     return 0;
 }
