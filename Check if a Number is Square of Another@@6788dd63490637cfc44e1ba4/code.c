@@ -2,9 +2,9 @@
 int main() {
     int a,b,c;
     scanf("%d%d",&a,&b);
-    c=a*a;
+    c=b*b;
     scanf("%d",&c);
-    if ("c==b") {
+    if ("c==a") {
         printf("Yes");
     } else {
         printf("No");
