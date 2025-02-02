@@ -4,7 +4,7 @@ int main() {
     scanf("%c", &a);
     if(a == 'A') {
         printf("Excellent\n");
-    } else if(b == 'B') {
+    } else if(a == 'B') {
         printf("Good\n");
     } else if(a == 'C') {
         printf("Average\n");
