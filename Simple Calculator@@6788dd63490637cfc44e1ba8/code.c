@@ -10,7 +10,7 @@ int main() {
     } else if (ch=='*') {
         printf("%d\n",a*b);
     } else if (ch=='/') {
-        if (b==0) {
+        if (b!=0) {
             printf("Error\n");
         } else {
             printf("%.0f",(float)a/b);
