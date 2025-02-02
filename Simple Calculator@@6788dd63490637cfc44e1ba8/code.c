@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main() {
     int a,b;
+    int l,m,n,o;
     char c;
     scanf("%d%d%c",&a,&b,&c);
     l=a+b;
