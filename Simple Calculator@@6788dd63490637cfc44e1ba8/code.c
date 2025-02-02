@@ -1,15 +1,15 @@
 #include <stdio.h>
 int main() {
     int a,b;
-    char c;
-    scanf("%d%d %c",&a,&b,&c);
-    if (c=='+') {
+    char ch;
+    scanf("%d%d %c",&a,&b,&hc);
+    if (ch=='+') {
         printf("%d\n",a+b);
-    } else if (c=='-') {
+    } else if (ch=='-') {
         printf("%d\n",a-b);
-    } else if (c=='*') {
+    } else if (ch=='*') {
         printf("%d\n",a*b);
-    } else if (c=='/') {
+    } else if (ch=='/') {
         printf("%d\n",a/b);
     } else {
         printf("Error\n");
