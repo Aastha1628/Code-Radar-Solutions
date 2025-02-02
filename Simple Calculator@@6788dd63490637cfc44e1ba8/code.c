@@ -3,22 +3,25 @@ int main() {
     int a,b;
     char ch;
     scanf("%d %d %c", &a , &b , &ch);
-    if (ch == '+') {
+    if(ch == '+'){
         printf("%d\n", a+b);
-    } else if (ch == '-') {
+    } 
+    else if(ch == '-'){
         printf("%d\n", a-b);
-    } else if (ch == '*') {
+    } 
+    else if(ch == '*'){
         printf("%d\n", a*b);
-    } else if (ch == '/') {
+    } 
+    else if(ch == '/'){
         if(b != 0){
             printf("%.0f", (float)a/b);
         } 
         else{
-            printf("Error");
+            printf("error");
         }
     } 
     else{
-        printf("Error");
+        printf("error");
     }
     return 0;
 }
