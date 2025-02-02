@@ -7,7 +7,6 @@ int main() {
     m=a-b;
     n=a*b;
     o=a/b;
-    scanf("%d%d%d%d",&l,&m,&n,&o);
     if (c=='+') {
         printf("%d",l);
     } else if (c=='-') {
