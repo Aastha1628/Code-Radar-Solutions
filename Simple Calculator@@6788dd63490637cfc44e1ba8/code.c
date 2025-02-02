@@ -2,22 +2,17 @@
 int main() {
     int a,b;
     char c;
-    int l,m,n,o;
     scanf("%d%d %c",&a,&b,&c);
-    l=a+b;
-    m=a-b;
-    n=a*b;
-    o=a/b;
     if (c=='+') {
-        printf("%d",l);
+        printf("%d\n",a+b);
     } else if (c=='-') {
-        printf("%d",m);
+        printf("%d\n",a-b);
     } else if (c=='*') {
-        printf("%d",n);
+        printf("%d\n",a*b);
     } else if (c=='/') {
-        printf("%d",o);
+        printf("%d\n",a/b);
     } else {
-        printf("Error");
+        printf("Error\n");
     }
     return 0;
 }
