@@ -7,13 +7,13 @@ int main() {
     n=a*b;
     o=a/b;
     scanf("%d%d%d%d",&l,&m,&n,&o);
-    if (c='+') {
+    if (c=='+') {
         printf("%d",l);
-    } else if (c='-') {
+    } else if (c=='-') {
         printf("%d",m);
-    } else if (c='*') {
+    } else if (c=='*') {
         printf("%d",n);
-    } else if (c='/') {
+    } else if (c=='/') {
         printf("%d",o);
     } else {
         printf("Error");
