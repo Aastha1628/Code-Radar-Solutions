@@ -4,8 +4,9 @@ int main() {
     int n;
     scanf("%d", &n);
 
-    int sum = n * (n + 1) / 2;
-    printf("%d\n", sum);
+    for (int i = 1; i <= n; i++) {
+        printf("%d ", i);
+    }
 
     return 0;
 }
