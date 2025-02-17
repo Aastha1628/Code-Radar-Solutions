@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-char* welcome() {
+char welcome() {
     return "Welcome to Code Radar!";
 }
 
