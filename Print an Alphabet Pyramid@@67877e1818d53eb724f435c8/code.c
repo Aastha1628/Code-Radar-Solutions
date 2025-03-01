@@ -10,7 +10,7 @@ int main() {
         }
         for (int j = 0; j <= i; j++) {  // Print alphabets
             printf("%c", 'A' + j);
-            if (j != i) {  // Avoid trailing space at the end of the line
+            if (j < i) {  // Avoid extra space at the end of the line
                 printf(" ");
             }
         }
@@ -19,4 +19,3 @@ int main() {
 
     return 0;
 }
-
