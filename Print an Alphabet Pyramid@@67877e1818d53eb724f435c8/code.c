@@ -5,16 +5,18 @@ int main() {
     scanf("%d", &n);
 
     for (int i = 0; i < n; i++) {  // Rows
-        for (int j = 0; j < n - i - 1; j++) {  // Print leading spaces
+        // Print leading spaces
+        for (int j = 0; j < n - i - 1; j++) {
             printf(" ");
         }
-        for (int j = 0; j <= i; j++) {  // Print alphabets
+        // Print alphabets
+        for (int j = 0; j <= i; j++) {
             printf("%c", 'A' + j);
-            if (j < i) {  // Avoid extra space at the end of the line
+            if (j < i) {  // Add space only between characters, not at the end
                 printf(" ");
             }
         }
-        printf("\n");  // Move to the next line
+        printf("\n");  // Move to next line
     }
 
     return 0;
