@@ -26,7 +26,7 @@ int main() {
     int k = 3;
     printArray(arr, n);
     rotateArray(arr, n, k);
-    printf("%d", k);
+    printf("%d\n", k);
     printArray(arr, n);
     return 0;
 }
