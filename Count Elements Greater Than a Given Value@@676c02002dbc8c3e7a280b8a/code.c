@@ -2,17 +2,21 @@
 
 int main() {
     int n, k, count = 0;
-    scanf("%d", &n);              // Read array size
+    scanf("%d", &n);
     int a[n];
-    for(int i = 0; i < n; i++) {
-        scanf("%d", &a[i]);       // Read array elements
+
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &a[i]);
     }
-    scanf("%d", &k);              // Read value of k
-    for(int i = 0; i < n; i++) {
-        if(a[i] > k) {
-            count++;              // Count if element is greater than k
+
+    scanf("%d", &k);
+
+    for (int i = 0; i < n; i++) {
+        if (a[i] > k) {
+            count++;
         }
     }
-    printf("%d", count);          // Output the result
+
+    printf("%d", count);
     return 0;
 }
