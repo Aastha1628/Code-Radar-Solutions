@@ -21,8 +21,8 @@ int main(void) {
     }
     int oddCount, evenCount;
     countOddEven(a, n, &oddCount, &evenCount);
-    printf("%d", evenCount);
-    printf("%d", oddCount);
+    printf("%d ", evenCount);
+    printf("%d ", oddCount);
 
     return 0;
 }
