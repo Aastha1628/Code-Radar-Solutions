@@ -8,22 +8,24 @@ int main() {
         scanf("%d", &arr[i]);
     }
     scanf("%d", &target);
+
     for(int i = 0; i < n; i++) {
         for(int j = i + 1; j < n; j++) {
             if(arr[i] + arr[j] == target) {
-                int unique = 1;
+                int alreadyPrinted = 0;
                 for(int k = 0; k < i; k++) {
-                    for(int l = k + 1; l < i; l++) {
+                    for(int l = k + 1; l < n; l++) {
                         if((arr[k] == arr[i] && arr[l] == arr[j]) || (arr[k] == arr[j] && arr[l] == arr[i])) {
-                            unique = 0;
+                            alreadyPrinted = 1;
                         }
                     }
                 }
-                if(unique) {
+                if(!alreadyPrinted) {
                     printf("%d %d\n", arr[i], arr[j]);
                 }
             }
         }
     }
+
     return 0;
 }
