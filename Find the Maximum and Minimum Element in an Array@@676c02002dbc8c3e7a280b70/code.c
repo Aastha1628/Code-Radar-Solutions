@@ -7,7 +7,7 @@ int main() {
    int arr[n];
    printf("Enter %d elements:\n", n);
    for (int i = 0; i < n; i++) {
-       printf("Enter element %d: ", i + 1);
+       printf("%d", i + 1);
        scanf("%d", &arr[i]);
    }
 
@@ -21,7 +21,7 @@ int main() {
            max = arr[i];
    }
 
-   printf("Minimum element = %d\n", min);
-   printf("Maximum element = %d\n", max);
+   printf("%d", min);
+   printf("%d", max);
 	return 0;
 }
