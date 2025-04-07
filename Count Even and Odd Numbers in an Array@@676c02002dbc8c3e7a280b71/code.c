@@ -16,14 +16,13 @@ int main(void) {
     int n;
     scanf("%d", &n);
     int a[n]; 
-    printf("Enter %d elements:\n", n);
     for (int i = 0; i < n; i++) {
         scanf("%d", &a[i]);
     }
     int oddCount, evenCount;
     countOddEven(a, n, &oddCount, &evenCount);
-    printf("Total Even Numbers: %d\n", evenCount);
-    printf("Total Odd Numbers: %d\n", oddCount);
+    printf("T%d\n", evenCount);
+    printf("%d\n", oddCount);
 
     return 0;
 }
