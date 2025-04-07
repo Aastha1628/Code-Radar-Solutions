@@ -9,7 +9,7 @@ int main() {
         if (a[i] < a[i - 1]) inc = 0;
         if (a[i] > a[i - 1]) dec = 0;
     }
-    if (inc || dec) printf("yes");
-    else printf("no");
+    if (inc || dec) printf("YES");
+    else printf("NO");
     return 0;
 }
