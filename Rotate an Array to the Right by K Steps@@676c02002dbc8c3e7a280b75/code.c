@@ -27,7 +27,6 @@ int main() {
     }
     scanf("%d", &k);
     rotateRight(arr, n, k);
-    printf("%d\n", k);
     for(int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
