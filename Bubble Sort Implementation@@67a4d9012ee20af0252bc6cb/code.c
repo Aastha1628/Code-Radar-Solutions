@@ -11,13 +11,7 @@ void bubblesort(int a[], int n){
         }
     }
 }
-int main(void){
-    int n;
-    scanf("%d",&n);
-    int a[n];
-    for(int i=0;i<n;i++){
-        scanf("%d",&a[i]);
-    }
+{
     bubblesort(a,n);
     for(int i=0;i<n;i++){
         printf("a[%d]=%d\n",i,a[i]);
