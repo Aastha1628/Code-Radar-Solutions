@@ -11,9 +11,3 @@ void bubblesort(int a[], int n){
         }
     }
 }
-{
-    bubblesort(a,n);
-    for(int i=0;i<n;i++){
-        printf("a[%d]=%d\n",i,a[i]);
-    }
-}
