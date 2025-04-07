@@ -9,7 +9,9 @@ int main() {
     }
     scanf("%d", &k);
     for(int i = 0; i < n; i++) {
-        if(a[i] > k) count++;
+        if(a[i] > k) {
+            count++;
+        }
     }
     printf("%d", count);
     return 0;
