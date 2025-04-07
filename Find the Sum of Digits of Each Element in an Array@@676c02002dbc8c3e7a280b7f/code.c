@@ -13,7 +13,7 @@ int main() {
         scanf("%d", &a[i]);
     }
     for(int i = 0; i < n; i++) {
-        printf("%d\n", sumofdigits(a[i]));
+        printf("%d ", sumofdigits(a[i]));
     }
     return 0;
 }
