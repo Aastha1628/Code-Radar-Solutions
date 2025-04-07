@@ -1,6 +1,11 @@
-int is Prime(int x, int y){
-    if(x<=0) return 0;
-    if(y==1) return 1;
-    if(x/y==0) return 0;
-    return prime(x,(y-1));
+int isPrime(int num){
+    if(num<2){
+        return 0;
+    }
+    for(int t=2;t<=num/2;t++){
+        if(num%t==0){
+            return 0;
+        }
+    }
+    return 1;
 }
