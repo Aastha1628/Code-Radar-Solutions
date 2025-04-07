@@ -18,7 +18,7 @@ int main() {
     if(isSorted) {
         printf("Sorted\n");
     } else {
-        printf("The array is NOT sorted.\n");
+        printf("Not Sorted/n");
     }
     return 0;
 }
