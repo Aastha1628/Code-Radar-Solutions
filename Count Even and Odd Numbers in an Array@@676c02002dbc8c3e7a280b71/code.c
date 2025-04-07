@@ -4,8 +4,8 @@ void countOddEven(int a[], int n, int *oddCount, int *evenCount) {
     *oddCount = 0;
     *evenCount = 0;
 
-    for(int i = 0; i < n; i++) {
-        if(a[i] % 2 == 0)
+    for (int i = 0; i < n; i++) {
+        if (a[i] % 2 == 0)
             (*evenCount)++;
         else
             (*oddCount)++;
@@ -13,17 +13,17 @@ void countOddEven(int a[], int n, int *oddCount, int *evenCount) {
 }
 
 int main(void) {
-    int a[] = {4, 8, 5, 9, 7, 6, 2, 3, 1, 0};
-    int n = 10;
+    int n;
+    scanf("%d", &n);
+    int a[n]; 
+    printf("Enter %d elements:\n", n);
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &a[i]);
+    }
     int oddCount, evenCount;
-
     countOddEven(a, n, &oddCount, &evenCount);
-
     printf("Total Even Numbers: %d\n", evenCount);
     printf("Total Odd Numbers: %d\n", oddCount);
 
     return 0;
 }
-
-
-
