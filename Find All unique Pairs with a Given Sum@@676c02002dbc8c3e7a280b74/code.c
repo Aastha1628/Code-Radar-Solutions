@@ -28,4 +28,21 @@ int main() {
                                 x = y;
                                 y = temp;
                             }
-                            if (x
+                            if (x == a && y == b) {
+                                seen = 1;
+                                break;
+                            }
+                        }
+                    }
+                    if (seen) break;
+                }
+
+                if (!seen) {
+                    printf("%d %d\n", a, b);
+                }
+            }
+        }
+    }
+
+    return 0;
+}
