@@ -17,7 +17,7 @@ int main() {
     qsort(arr, n, sizeof(int), compare);
 
     if(n % 2 == 0)
-        printf("%d", (arr[n/2 - 1] + arr[n/2]) / 2.0);
+        printf("%f", (arr[n/2 - 1] + arr[n/2]) / 2.0);
     else
         printf("%d", arr[n/2]);
 
