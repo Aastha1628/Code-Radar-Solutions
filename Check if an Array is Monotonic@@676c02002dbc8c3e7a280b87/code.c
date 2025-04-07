@@ -9,6 +9,7 @@ int main() {
         if (a[i] < a[i - 1]) inc = 0;
         if (a[i] > a[i - 1]) dec = 0;
     }
-    printf("%d", inc || dec);
+    if (inc || dec) printf("yes");
+    else printf("no");
     return 0;
 }
